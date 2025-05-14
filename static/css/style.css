@@ -102,6 +102,9 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .image-perfil {
     border-style: double;
