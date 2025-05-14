@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Carpes | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header class="hero-subpages">
+        <div class="overlay-subpages" style="background-image: url('{{ url_for('static', filename='img/background.jpg') }}'); background-size: cover; background-position: center;" id="top">
+            <div class="hero-content-subpages">
+                <h1>Pedro Carpes</h1>
+                <a href="/" class="btn">Home</a>
+                <a href="/projects" class="btn">Projects</a>
+                <a href="/resume" class="btn">Resume</a>
+
+                <div class="social-icons-subpages">
+                    <a href="https://github.com/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/github-icon2.png') }}" alt="GitHub" class="icon"></a>
+                    <a href="https://linkedin.com/in/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/linkedin-icon.png') }}" alt="LinkedIn" class="icon"></a>
+                    <a href="mailto:pedro@example.com"><img src="{{ url_for('static', filename='img/email-icon.png') }}" alt="Email" class="icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="resume">
+      <div id="resume"><h2>Resume</h2></div>
+      <hr>
+
+      <div id="profile">
+        <h3>Professional Profile</h3>
+        <div>
+          <ul>
+            <li>Canadian Work Permit Holder</li>
+            <li>Detail-oriented Data Analyst with over 8 years of experience in digital transformation, system analysis, and data-driven decision-making across logistics, supply chain, healthcare, and AI sectors.</li>
+            <li>Expertise in requirements gathering, user story development, process improvement, and agile delivery.</li>
+            <li>Skilled in SQL, Python, and data visualization, with a proven record of supporting system implementations and business operations. </li>
+            <li>Strong cross-functional collaboration with technical teams and senior stakeholders.</li>
+            <li>MBA in Project Management with certifications in data analytics and programming.</li>
+            <li>Fluent in English, Portuguese, and Spanish.</li>
+            <li>Teamwork, self- learner, flexible/adaptable, analytical thinking, high achiver, focus on results, problem solving and interest in new challenges. </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div id="experience">
+        <h3>Professional Experience</h3>
+        <div>
+          <ul>
+            <li><h4>AI Training Engineer</h4>
+              <p>Outlier AI | Remote | Oct 2024 – Dec 2024</p>
+              <ul>
+                  <li>Performed in-depth analysis of AI model outputs, debugging and categorizing issues (syntax, logic, runtime) to improve robustness.</li>
+                  <li>Developed Python, SQL, and JavaScript scripts to test and validate AI system behaviors, aligning with Agile delivery cycles.</li>
+                  <li>Documented system behaviors and contributed to knowledge bases for global teams.</li>
+              </ul>
+            </li>
+            <li><h4>Associate Data Analyst</h4>
+              <p>Expeditors | United States | Mar 2024 – Sep 2024</p>
+              <ul>
+                  <li>Automated frontend-to-backend data validation through Python, Selenium, and SQL, improving daily data reliability processes.</li>
+                  <li>Led data validation initiatives across complex datasets (SQL, CSV, XML, APIs), contributing to business intelligence improvements.</li>
+                  <li>Produced actionable analysis and system reports supporting digital operational enhancements.</li>
+              </ul>
+            </li>
+            <li><h4>Data Analyst</h4>
+              <p>Golden Cross | Brazil | Jul 2023 – Dec 2023</p>
+              <ul>
+                  <li>Analyzed legal risk data using SQL, identifying over $200K in liabilities and providing actionable insights for executive policy revisions.</li>
+                  <li>Supported post-implementation reporting and facilitated system requirement clarifications with cross-functional teams.</li>
+              </ul>
+            </li>
+            <li><h4>Data Analyst</h4>
+              <p>Rede Hospital Casa | Brazil | May 2016 – Sep 2021</p>
+              <ul>
+                  <li>Analyzed HR operational data across 10 hospitals, reducing labor risk exposure by streamlining payroll processes.</li>
+                  <li>Maintained SQL-based systems and collaborated with IT teams to ensure data accuracy and support digital process improvements.</li>
+              </ul>
+            </li>
+            <li><h4>Project Manager</h4>
+              <p>CRP Consulting & Professional Qualification | Brazil | Jul 2007 – May 2016</p>
+              <ul>
+                  <li>Led digital training and consulting projects in maritime transport and logistics, supporting public and private sector transformation initiatives.</li>
+                  <li>Coordinated cross-functional teams and facilitated user-centric project delivery within Agile frameworks.</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav justify-content-end">
+            <a href="#top">back to top</button></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="m-1" id="certificates">
+        <h3>Course Certificates</h3>
+        <div>
+          <ul>
+              <li><b>Google Advanced Data Analytics Professional Certificate</b> | Google | Present.</li>
+              <li><b>Awesome Python</b> | Hashtag Training | Present.</li>
+              <li><b>Scientific Computing with Python</b> | Free Code Camp | Dec 2024.</li>
+              <li><b>Golang Course</b> | ComIT | Aug 2024.</li>
+              <li><b>Java Developer Formation</b> | Digital Innovation One - Pro | Feb 2023.</li>
+              <li><b>PCAP Programming Essentials in Python</b> | Cisco Networking Academy | Dec 2022.</li>
+              <li><b>Santander Bootcamp Fullstack Developer focused on HTML, CSS, JavaScript, Angular, Java and Spring Framework</b> | Digital Innovation One | Aug 2022.</li>
+              <li><b>Bootcamp Impulso JavaScript Evolution with focus on HTML, CSS, JavaScript, ReactJs, PostgreSQL, MongoDB and Node.Js</b> | Digital Innovation One | Aug 2022.</li>
+              <li><b>CS50’s Computer Science for Lawyers</b> | HarvardX | Jun 2022.</li>
+              <li><b>Technical Support Fundamentals</b> | Google | Feb 2022.</li>
+              <li><b>Programming Logic</b> | SENAI | Jan 2022.</li>
+          </ul>
+          <div class="nav justify-content-end">
+            <a href="#top">back to top</button></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div id="education">
+        <h3>Education</h3>
+        <div>
+          <ul>
+              <li><b>MBA in Project Management</b> | Fundação Getúlio Vargas.</li>
+              <li><b>Bachelor Degree in Law School</b> | Universidade de Vila Velha/ES.</li>
+              <li><b>Specialization in Maritime Law</b> | Fundação Getúlio Vargas.</li>
+              <li><b>Specialization in Forensic Expertise: Judicial expert, graphotechnical expertise and graphoscopy</b> | Curso Beta.</li>
+          </ul>
+          <div>
+            <a href="#top">back to top</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <footer>
+        <p>© 2025 Pedro Carpes | pcarpes@gmail.com</p>
+    </footer>
+</body>
+</html>

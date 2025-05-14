@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Carpes | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay" style="background-image: url('{{ url_for('static', filename='img/background.jpg') }}'); background-size: cover; background-position: center;">
+            <div class="hero-content">
+                <h1>Pedro Carpes</h1>
+                <p>Data Analyst · Python Software Developer · Web Developer</p>
+                <a href="/" class="btn">Home</a>
+                <a href="/projects" class="btn">Projects</a>
+                <a href="/resume" class="btn">Resume</a>
+
+                <div class="social-icons">
+                    <a href="https://github.com/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/github-icon2.png') }}" alt="GitHub" class="icon"></a>
+                    <a href="https://linkedin.com/in/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/linkedin-icon.png') }}" alt="LinkedIn" class="icon"></a>
+                    <a href="mailto:pcarpes@gmail.com"><img src="{{ url_for('static', filename='img/email-icon.png') }}" alt="Email" class="icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-me">
+            <div>
+                <img src="static/img/test.jpg" alt="Image Pedro" class="image-perfil">
+            </div>
+            <div class="about-text">
+                <p>I'm Pedro Carpes, a Toronto-based Business Analyst and Data Analyst with over 8 years of experience transforming data into actionable insights across the logistics, supply chain, healthcare, and AI sectors.</p>
+                <p>My work blends technical expertise with a strong foundation in project management and system analysis to solve complex problems and drive smarter business decisions.</p>
+                <p>I specialize in data analysis, software development, and digital transformation, with advanced skills in Python, SQL, and JavaScript. Whether automating processes, designing system improvements, or interpreting complex datasets, I bring a detail-oriented and agile mindset to every project.</p>
+                <p>With an MBA in Project Management and certifications in data analytics, programming, and software development, I’m passionate about building innovative, user-focused solutions. I'm fluent in English, Portuguese, and Spanish, and I thrive in multicultural, collaborative environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Main Projects</h2>
+        <div class="cards">
+            <a href="https://github.com/pcarpes/automation_smoke_test_helo2_app" class="card"><h3>Helo-2 Smoke Test Automation</h3><p>An end-to-end smoke testing suite for the Helo-2 web application, built with Python, Selenium, and Pandas. Automates UI validation, captures test results in structured CSV reports, and supports rapid quality checks during software deployment.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/appvendasandroid" class="card"><h3>Android Sales App</h3><p>A mobile-first sales management system built with Python, Kivy/KivyMD, and Firebase. Enables users to add, update, and manage product inventories and sales transactions via a clean and responsive Android interface.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/intensivao_python_projeto_ciencias_dados" class="card"><h3>Data Science Project</h3><p>A full data science pipeline built with Pandas, Scikit-learn, and Matplotlib, designed to help marketing teams optimize their advertising budget. Covers data cleaning, exploratory analysis, model training, and prediction to support investment decisions across multiple channels.</p>
+            <div class="btn-card">Github Repository</div></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Pedro Carpes | pcarpes@gmail.com</p>
+    </footer>
+</body>
+</html>

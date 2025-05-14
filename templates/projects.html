@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Carpes | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="hero-subpages">
+        <div class="overlay-subpages" style="background-image: url('{{ url_for('static', filename='img/background.jpg') }}'); background-size: cover; background-position: center;">
+            <div class="hero-content-subpages">
+                <h1>Pedro Carpes</h1>
+                <a href="/" class="btn">Home</a>
+                <a href="/projects" class="btn">Projects</a>
+                <a href="/resume" class="btn">Resume</a>
+
+                <div class="social-icons-subpages">
+                    <a href="https://github.com/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/github-icon2.png') }}" alt="GitHub" class="icon"></a>
+                    <a href="https://linkedin.com/in/pcarpes" target="_blank"><img src="{{ url_for('static', filename='img/linkedin-icon.png') }}" alt="LinkedIn" class="icon"></a>
+                    <a href="mailto:pedro@example.com"><img src="{{ url_for('static', filename='img/email-icon.png') }}" alt="Email" class="icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+     <section id="projects" class="section">
+        <h2>Main Projects</h2>
+        <div class="cards">
+            <a href="https://github.com/pcarpes/automation_smoke_test_helo2_app" class="card"><h3>Helo-2 Smoke Test Automation</h3><p>An end-to-end smoke testing suite for the Helo-2 web application, built with Python, Selenium, and Pandas. Automates UI validation, captures test results in structured CSV reports, and supports rapid quality checks during software deployment.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/appvendasandroid" class="card"><h3>Android Sales App</h3><p>A mobile-first sales management system built with Python, Kivy/KivyMD, and Firebase. Enables users to add, update, and manage product inventories and sales transactions via a clean and responsive Android interface.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/intensivao_python_projeto_ciencias_dados" class="card"><h3>Data Science Project</h3><p>A full data science pipeline built with Pandas, Scikit-learn, and Matplotlib, designed to help marketing teams optimize their advertising budget. Covers data cleaning, exploratory analysis, model training, and prediction to support investment decisions across multiple channels.</p>
+            <div class="btn-card">Github Repository</div></a>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <h2>Other Projects</h2>
+        <div class="cards">
+            <a href="https://github.com/pcarpes/xml_to_excel_file" class="card"><h3>XML to Excel Converter</h3><p>A Python script that automates the extraction and conversion of structured XML data into clean, formatted Excel (.xlsx) spreadsheets using xml.etree.ElementTree and openpyxl. Ideal for transforming large XML datasets into analysis-ready Excel files.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/test_groq_ai_api" class="card"><h3>Groq AI API Testing</h3><p>A Python-based test script for interacting with the Groq API, designed to evaluate the performance and output of large language models. Demonstrates prompt construction, API request handling, and response parsing for LLM experimentation and benchmarking.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/json_to_csv_file" class="card"><h3>JSON to CSV Converter</h3><p>A Python utility that reads structured JSON data and converts it into clean CSV format using json and csv libraries. Useful for data preprocessing, migration tasks, and transforming API responses into analysis-friendly formats.</p>
+            <div class="btn-card">Github Repository</div></a>
+        </div>
+        <div class="cards">
+            <a href="https://github.com/pcarpes/intensivao_python_automacao_web" class="card"><h3>Web Automation with Python</h3><p>A Python-based automation script that uses Selenium and BeautifulSoup to navigate websites, extract structured data, and automate form submissions.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/intensivao_python_analise_dados" class="card"><h3>Data Analysis with Python</h3><p>An end-to-end data analysis project using Pandas, Matplotlib, and Seaborn to explore and visualize customer purchasing behavior. Includes data cleaning, exploratory analysis, and insights extraction — ideal for business decision-making and dashboard development.</p>
+            <div class="btn-card">Github Repository</div></a>
+            <a href="https://github.com/pcarpes/intensivao_python_automacao_sistemas" class="card"><h3>System Automation with <Python></Python></h3><p>A desktop automation project using PyAutoGUI to control mouse, keyboard, and screen recognition for automating repetitive tasks in Windows applications. Demonstrates practical use cases such as file processing and system navigation without manual input.</p>
+            <div class="btn-card">Github Repository</div></a>
+        </div>
+    </section>
+
+
+     <footer>
+        <p>© 2025 Pedro Carpes | pcarpes@gmail.com</p>
+    </footer>
+</body>
+</html>
