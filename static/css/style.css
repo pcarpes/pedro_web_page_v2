@@ -2,9 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #000000;
+    background: #f4f4f4;
     color: #333;
-/*#f4f4f4*/
 }
 .hero {
     background: linear-gradient(135deg, #1E90FF, #104E8B);
