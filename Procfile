@@ -1,1 +1,5 @@
-web:gunicorn app:app
+{
+  "scripts": {
+    "start": "gunicorn app:app"
+  }
+}
